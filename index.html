@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-1.12.3.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#"><img src="./images/logo.png" alt="logo"></a>
+            <nav>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">탑</a>
+                        <ul class="lnb">
+                            <li><a href="#">블라우스</a></li>
+                            <li><a href="#">티</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">니트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">아우터</a>
+                        <ul class="lnb">
+                            <li><a href="#">자켓</a></li>
+                            <li><a href="#">코트</a></li>
+                            <li><a href="#">가디건</a></li>
+                            <li><a href="#">머플러</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">팬츠</a>
+                        <ul class="lnb">
+                            <li><a href="#">청바지</a></li>
+                            <li><a href="#">짧은바지</a></li>
+                            <li><a href="#">긴바지</a></li>
+                            <li><a href="#">레깅스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">악세서리</a>
+                        <ul class="lnb">
+                            <li><a href="#">귀고리</a></li>
+                            <li><a href="#">목걸이</a></li>
+                            <li><a href="#">반지</a></li>
+                            <li><a href="#">팔찌</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="slide">
+            <div class="container">
+                <div class="slidein">
+                    <img src="./images/slide_01.jpg" alt="slide_01">
+                    <img src="./images/slide_02.jpg" alt="slide_02">
+                    <img src="./images/slide_03.jpg" alt="slide_03">
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="wrap1">
+                    <ul class="tab">
+                        <li><a href="#box1" class="active">공지사항</a></li>
+                        <li><a href="#box2">갤러리</a></li>
+                    </ul>
+                    <div id="box1" class="active">
+                        <ul class="notice">
+                            <li><a href="#">이번 라이온 브랜드위크 이벤트 당첨자를 발표 합니다</a><span>2021 03 22</span></li>
+                            <li><a href="#">이번 라이온 브랜드위크 이벤트 당첨자를 발표 합니다</a><span>2021 04 02</span></li>
+                            <li><a href="#">휴대폰결제 서비스 일시 중단</a><span>2021 04 23</span></li>
+                            <li><a href="#">BC카드 무이자 이번 라이온 브랜드위크</a><span>2021 04 27</span></li>
+                        </ul>
+                    </div>
+                    <div id="box2">
+                        <img src="./images/gallery_01.jpg" alt="gallery_01">
+                        <img src="./images/gallery_02.jpg" alt="gallery_02">
+                        <img src="./images/gallery_03.jpg" alt="gallery_03">
+                    </div>
+                </div>
+                <div class="wrap2">
+                    <a href="#"><img src="./images/banner.jpg" alt="banner"></a>
+                </div>
+                <div class="wrap3">
+                    <ul class="qlink">
+                        <h3>바로가기</h3>
+                        <li><a href="#">탑</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">팬츠</a></li>
+                        <li><a href="#">악세서리</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="wrap1">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="wrap2">
+                <p><a href="#">법적고지 | </a><a href="#">개인정보취급방침 | </a><a href="#">개인정보처리방침</a></p>
+                <p>JUST 쇼핑몰 [612-030] 부산광역시 해운대구 세실로175 (좌동)</p>
+                <p><span>전화번호 : (051) 709-0700</span>사업자등록번호 : 605-82-05242<span></span><span>대표자 : 홍길동</span></p>
+                <p>copyright(c) 2019 JUST SHOP. all rights reserved</p>
+            </div>
+            <div class="wrap3">
+                <img src="./images/sns_01.png" alt="sns_01">
+                <img src="./images/sns_02.png" alt="sns_02">
+                <img src="./images/sns_03.png" alt="sns_03">
+            </div>
+        </div>
+    </footer>
+    <div class="popup">
+        <h2>라이온 브랜드위크 이벤트 당첨자</h2>
+        <p>안철수, 노태우, 전두환, 이승만</p>
+        <button class="btn-close">X 닫기</button>
+    </div>
+</body>
+</html>
